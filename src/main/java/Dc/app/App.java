@@ -1,4 +1,4 @@
-package Dc.app.Sampleboot;
+package Dc.app;
 
 //import org.apache.logging.log4j.LogManager;
 //import org.apache.logging.log4j.Logger;
@@ -16,7 +16,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 @EnableWebMvc
 @Configuration
 @EnableAutoConfiguration
-//@ComponentScan(basePackages = {"Dc.app","dc.services.connect.api"})
+@ComponentScan(basePackages = {"Dc.app.Sampleboot"})
 public class App extends SpringBootServletInitializer{
 	
 	// private static Logger log = LogManager.getLogger(App.class);
